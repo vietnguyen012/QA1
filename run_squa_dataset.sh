@@ -1,0 +1,34 @@
+python3.6 run_squad_sp.py \
+  --albert_config_file=gs://diacritics/config/albert_config.json \
+  --vocab_file=gs://diacritics/assets/albertvi_30k-clean.vocab \
+  --output_dir=gs://diacritics/output/ \
+  --train_file=gs://diacritics/data/hanhphic_dataset.json \
+  --train_feature_file=gs://diacritics/data/hanhphic_dataset_fourth.rtf \
+  --predict_file=gs://diacritics/data/Covid19_QA_Train_Dataset.json \
+  --predict_feature_file=gs://diacritics/data/Covid19_QA_Train_Dataset.rtf \
+  --predict_feature_left_file=gs://diacritics/data/predict_left_file1.pkl \
+  --init_checkpoint= gs://diacritics/checkpoint/model.ckpt-1015000 \
+  --spm_model_file= gs://diacritics/assets/albertvi_30k-clean.model \
+  --do_lower_case=True \
+  --max_seq_length=256 \
+  --doc_stride=128 \
+  --max_query_length=64 \
+  --do_train=true \
+  --do_predict=false \
+  --train_batch_size=4096 \
+  --predict_batch_size=8 \
+  --learning_rate=4e-5 \
+  --num_train_epochs=3 \
+  --warmup_proportion=0.0 \
+  --save_checkpoints_steps=5000 \
+  --n_best_size=20 \
+  --max_answer_length=30 \
+  --use_tpu=True \
+  --tpu_name = grpc://35.224.212.124:8470 \
+  --tpu_zone = us-central1-b \
+  --num_tpu_cores 1 \
+  --gcp_project = concise-honor-283301 \
+  --do_client=false \
+  --do_export=false \
+  --version_2_with_negative = True 
+

@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "Virus corona có phải virus mới hay không?",
+              "id": 27527,
+              "answers": [
+                {
+                  "answer_id": 25239,
+                  "document_id": 37254,
+                  "question_id": 27527,
+                  "text": "",
+                  "answer_start": 14,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "Vào ngày xxx .Vi-rút corona mới là loại vi-rút corona mới chưa từng được phát hiện trước đây. Vi-rút gây ra bệnh vi-rút corona 2019 (COVID-19), không cùng loại vi-rút corona thường lan truyền ở người và gây ra bệnh nhẹ, giống như cảm lạnh thông thường. xxx Vào ngày 11 tháng 2, 2020 Tổ Chức Y Tế Thế Giới đã tuyên bố tên chính thức cho căn bệnh đang gây bùng phát là vi-rút corona 2019 mới, lần đầu được xác định tại Vũ Hán, Trung Quốc. Tên mới cho căn bệnh này là bệnh vi-rút corona 2019, gọi tắt là COVID-19. Trong chữ COVID-19, 'CO' viết tắt của từ 'corona, VI' viết tắt của từ 'vi-rút,' và 'D' là bệnh. Trước đó, căn bệnh này được gọi là \\\"vi-rút corona mới 2019\\\" hoặc \\\"nCoV-2019\\\". Có nhiều loại vi-rút corona ở người bao gồm một số loại thường gây ra các chứng bệnh nhẹ ở đường hô hấp trên. COVID-19 là một bệnh mới, do một loại vi-rút corona mới chưa từng thấy ở người gây ra.",
+          "document_id": 37254
+        }
+      ]
+    },
+    {
+      "paragraphs": [
+        {
+          "qas": [
+            {
+              "question": "Chủng vi-rút corona mới là gì?",
+              "id": 27528,
+              "answers": [
+                {
+                  "answer_id": 25240,
+                  "document_id": 37255,
+                  "question_id": 27528,
+                  "text": "Vi-rút gây ra bệnh vi-rút corona 2019 (COVID-19), không cùng loại vi-rút corona thường lan truyền ở người và gây ra bệnh nhẹ, giống như cảm lạnh thông thường",
+                  "answer_start": 80,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            },
+            {
+              "question": "Tại sao bệnh này lại được gọi là bệnh vi-rút corona 2019, COVID-19?",
+              "id": 27529,
+              "answers": [
+                {
+                  "answer_id": 25241,
+                  "document_id": 37255,
+                  "question_id": 27529,
+                  "text": "Tên mới cho căn bệnh này là bệnh vi-rút corona 2019, gọi tắt là COVID-19. Trong chữ COVID-19, 'CO' viết tắt của từ 'corona, VI' viết tắt của từ 'vi-rút,' và 'D' là bệnh",
+                  "answer_start": 419,
+                  "answer_category": null
+                }
+              ],
+              "is_impossible": false
+            }
+          ],
+          "context": "Vi-rút corona mới là loại vi-rút corona mới chưa từng được phát hiện trước đây. Vi-rút gây ra bệnh vi-rút corona 2019 (COVID-19), không cùng loại vi-rút corona thường lan truyền ở người và gây ra bệnh nhẹ, giống như cảm lạnh thông thường. Vào ngày 11 tháng 2, 2020 Tổ Chức Y Tế Thế Giới đã tuyên bố tên chính thức cho căn bệnh đang gây bùng phát là vi-rút corona 2019 mới, lần đầu được xác định tại Vũ Hán, Trung Quốc. Tên mới cho căn bệnh này là bệnh vi-rút corona 2019, gọi tắt là COVID-19. Trong chữ COVID-19, 'CO' viết tắt của từ 'corona, VI' viết tắt của từ 'vi-rút,' và 'D' là bệnh. Trước đó, căn bệnh này được gọi là \\\"vi-rút corona mới 2019\\\" hoặc \\\"nCoV-2019\\\". Có nhiều loại vi-rút corona ở người bao gồm một số loại thường gây ra các chứng bệnh nhẹ ở đường hô hấp trên. COVID-19 là một bệnh mới, do một loại vi-rút corona mới chưa từng thấy ở người gây ra.",
+          "document_id": 37255
+        }
+      ]
+    }
+  ]
+}
